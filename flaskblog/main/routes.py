@@ -12,9 +12,9 @@ import json
 import pdfkit
 import stripe
 
-config=pdfkit.configuration(wkhtmltopdf=r'.\flaskblog\bin\wkhtmltopdf.exe')
+'''config=pdfkit.configuration(wkhtmltopdf=r'.\flaskblog\bin\wkhtmltopdf.exe')
 buplishable_key ='pk_test_51IJhisCvsB7CERUXznrhAbCUHPmY1WDcqwnseIFRVLWiQHs49EgchoODlorCmpCkYnKOx4CtyPOJeNTEx7ksU8bS00Am5A3LR4'
-stripe.api_key ='sk_test_51IJhisCvsB7CERUX2Gq7tiMiSMT2VecnDuc5mlfPp3bbGaWHGpfmbTgJ6OimECeEQ1C8Tw2HD84q5iNS1JZKSkMr00iXJwgdXx'
+stripe.api_key ='sk_test_51IJhisCvsB7CERUX2Gq7tiMiSMT2VecnDuc5mlfPp3bbGaWHGpfmbTgJ6OimECeEQ1C8Tw2HD84q5iNS1JZKSkMr00iXJwgdXx'''
 
 main = Blueprint('main', __name__)
 
